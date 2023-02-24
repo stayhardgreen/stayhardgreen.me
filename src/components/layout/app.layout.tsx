@@ -2,6 +2,7 @@ import React from "react";
 
 // components
 import { Header } from "./header";
+import { Footer } from "./footer";
 
 // styles
 import * as SH from "./styles";
@@ -14,7 +15,8 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
   return (
     <SH.AppWrapper>
       <Header />
-      <div className="flex">{children}</div>
+      <div>{children}</div>
+      <Footer />
     </SH.AppWrapper>
   );
 };

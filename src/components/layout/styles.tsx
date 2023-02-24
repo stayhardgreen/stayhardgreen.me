@@ -60,3 +60,23 @@ export const OverlayContent = styled.div.attrs({
   className:
     "w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20",
 })``;
+
+// footer
+export const Footer = styled.footer.attrs({ className: "mt-32" })``;
+
+export const FooterInner = styled.div.attrs({
+  className: "flex flex-col items-center justify-between gap-6 sm:flex-row",
+})``;
+
+export const Copyright = styled.div.attrs({
+  className: "text-sm text-zinc-400 dark:text-zinc-500",
+})``;
+
+export const FooterLinksWrapper = styled.div.attrs({
+  className:
+    "flex lg:gap-6 gap-4 text-sm font-medium text-zinc-800 dark:text-zinc-200",
+})``;
+
+export const FooterLink = styled.a.attrs({
+  className: "transition hover:text-teal-500 dark:hover:text-teal-400",
+})``;
