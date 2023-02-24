@@ -39,7 +39,7 @@ interface ArticleProps {
 const articles: ArticleType[] = [
   {
     id: 1,
-    title: "My Git Aliases",
+    title: "My Git Aliases - !!!",
     description:
       "Here’s how I alias Git commands and increase my productivity.",
     slug: "my-git-aliases",
