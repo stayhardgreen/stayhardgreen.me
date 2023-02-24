@@ -9,6 +9,7 @@ export default function Home() {
       <>
         <C.Avatar />
         <C.Intro />
+        <C.Content />
       </>
     </C.AppLayout>
   );

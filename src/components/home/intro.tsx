@@ -51,8 +51,8 @@ export const Intro: React.FC = () => {
         <SH.IntroInner>
           <SH.IntroTitle>Hey there, I’m StayHardGreen.</SH.IntroTitle>
           <SH.IntroDesc>
-            I’m a Software Developer from Staffordshire using React.js, Vue.js,
-            Inertia, Laravel & Tailwind & Livewire & Alpine.js.
+            I’m a Software Developer using React.js, Vue.js, Inertia, Laravel &
+            Tailwind & Livewire & Alpine.js.
           </SH.IntroDesc>
           <SH.IntroSocials>
             {socials.map((social) => (
