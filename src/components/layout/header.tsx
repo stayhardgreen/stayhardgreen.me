@@ -39,8 +39,6 @@ export const Header: React.FC = () => {
     setTheme(theme === "light" ? "dark" : "light");
   }, [setTheme, theme]);
 
-  console.log(theme);
-
   return (
     <SH.HeaderWrapper>
       <SH.HeaderInner>
@@ -81,16 +79,8 @@ export const Header: React.FC = () => {
                       aria-label="Toggle dark mode"
                       onClick={toggleTheme}
                     >
-                      <Icons.ISun
-                        className={
-                          theme === "light" || theme === undefined
-                            ? ""
-                            : "hidden"
-                        }
-                      />
-                      <Icons.IMoon
-                        className={theme === "dark" ? "" : "hidden"}
-                      />
+                      <Icons.ISun />
+                      <Icons.IMoon />
                     </SH.DLButton>
                   </div>
                 </div>
