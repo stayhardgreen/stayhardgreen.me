@@ -6,7 +6,7 @@ import * as SH from "@/components";
 export default function Home() {
   return (
     <SH.AppLayout>
-      <>Me!!!</>
+      <>Me</>
     </SH.AppLayout>
   );
 }
