@@ -7,7 +7,7 @@ export const AppWrapper = styled.main.attrs({ className: "relative" })``;
 // header
 export const HeaderWrapper = styled.header.attrs({
   className:
-    "sticky pointer-events-none relative z-50 flex items-center justify-center h-20",
+    "!fixed top-0 w-full backdrop-blur-sm pointer-events-none relative z-50 flex items-center justify-center h-20",
 })``;
 
 export const HeaderInner = styled.div.attrs({
