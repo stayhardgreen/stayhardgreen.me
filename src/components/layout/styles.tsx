@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 // app
 export const AppWrapper = styled.main.attrs({ className: "relative" })``;
@@ -37,7 +38,7 @@ export const NavLinkWrapper = styled.ul.attrs({
 
 export const NavLink = styled.li.attrs({ className: "" })``;
 
-export const NavA = styled.a.attrs({
+export const NavA = styled(Link).attrs({
   className:
     "relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400",
 })``;
@@ -77,6 +78,6 @@ export const FooterLinksWrapper = styled.div.attrs({
     "flex lg:gap-6 gap-4 text-sm font-medium text-zinc-800 dark:text-zinc-200",
 })``;
 
-export const FooterLink = styled.a.attrs({
+export const FooterLink = styled(Link).attrs({
   className: "transition hover:text-teal-500 dark:hover:text-teal-400",
 })``;
